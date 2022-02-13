@@ -1,2 +1,4 @@
 # Waste_Classification
-Designed 2 image classifiers to segregate waste into 6 different groups
+
+Segregation of garbage at home helps municipalities manage and sort solid waste generated in the country and can have huge positive impacts on the environment. However, this can be a confusing task for many consumers. This project tries to solve this problem by building a model that helps consumers segregate their trash with ease in the future. To achieve this, we experimented with the state-of-the-art network VGG-16 [1] to implement our own model inspired by it (Model 1), and built another model from scratch (Model 2). We tested 3 regularization techniques - batch normalization [2], dropout [3], and full data augmentation [4] - to find the most efficient model. We found that different techniques work best for the two models and that the Model2 gives better results overall. The VGG-16 inspired model (Model 1) achieved 70.5% accuracy with the three regularization techniques while the Model2 achieved 79.8 % with only data augmentation.
+
